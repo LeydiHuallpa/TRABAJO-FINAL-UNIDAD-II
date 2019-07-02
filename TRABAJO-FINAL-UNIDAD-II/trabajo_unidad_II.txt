@@ -1,0 +1,10 @@
+DIAPOSITIVAS:
+************************
+https://github.com/LeydiHuallpa/Diapositivas_BI.git
+
+TRABAJOS:
+************************
+https://github.com/LeydiHuallpa/Modelo_Dimensional_vs_Modelo_Tabular.git
+----------------------------------------
+https://github.com/LeydiHuallpa/metodolog-a_Inmon_VS_metodolog-a_Kimball.git
+
