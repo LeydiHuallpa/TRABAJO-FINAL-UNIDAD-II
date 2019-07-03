@@ -98,6 +98,45 @@ Data Warehouse es el repositorio central de los datos de una empresa proveniente
 				\end{center}
 			\end{figure}
 
+\subsection{PRINCIPALES VENTAJAS DE UN DATA WAREHOUSE}	
+\begin{figure}[htb]
+				\begin{center}
+					\includegraphics[width=15cm]{./IMAGENES/leydi1}
+				\end{center}
+			\end{figure}
+Estas son las principales ventajas que se pueden encontrar en la implantación de un Data Warehouse en el proceso de gestión del dato en tu negocio:
+\begin{itemize}
+
+\item Facilita la toma de decisiones basadas en datos, en cualquier área funcional de la empresa, ya que te proporciona información integrada y global del negocio.
+\item La información se convierte en un valor añadido para cualquier negocio, gracias a que permite aplicar técnicas estadísticas de análisis y modelización que ayudan a encontrar relaciones ocultas entre los datos almacenados.
+\item Te permite de manera sencilla aprender de los datos del pasado y predecir situaciones futuras para diferentes escenarios.
+\item Simplifica la implantación de sistemas de gestión integral de la relación con el cliente, dentro de la empresa.
+\item Supone una optimización tecnológica y económica en entornos de Centro de Información, estadística o de generación de informes con retornos de la inversión espectaculares.
+\item Es un sistema especialmente útil para el medio y el largo plazo.
+\item Aumenta la productividad de las empresas de manera muy sustancial.
+\item Te permite realizar planes de una manera mucho más efectiva.
+\item Permite la integración de todas las herramientas corporativas. Por ejemplo, nosotros en Artyco integramos toda la información que recogemos a través de todas nuestras aplicaciones (monitorización web, crm, wifi tracking, campañas…) en un Data Warehouse, de donde sacar la información necesaria ante consultas determinadas.
+\item Para trabajar de manera correcta un Data Warehouse, es preciso que todos los componentes de la organización hablen el mismo lenguaje, es decir, que todos llamen a las cosas por su nombre. De este modo, gracias al Data Warehouse se pueden unificar conceptos.
+
+\end{itemize}
+
+\subsection{DESVENTAJAS DE UN DATA WAREHOUSE}	
+
+\begin{itemize}
+
+\item No es muy útil para la toma de decisiones en tiempo real debido al largo tiempo de procesamiento que puede requerir. En cualquier caso la tendencia de los productos actuales (junto con los avances del hardware) es la de solventar este problema convirtiendo la desventaja en una ventaja.
+\item Requiere de continua limpieza, transformación e integración de datos.
+\item Mantenimiento.
+\item En un proceso de implantación puede encontrarse dificultades ante los diferentes objetivos que pretende una organización.
+\item Una vez implementado puede ser complicado añadir nuevas fuentes de datos.
+\item Requieren una revisión del modelo de datos, objetos, transacciones y además del almacenamiento.
+\item Tienen un diseño complejo y multidisciplinar.
+\item Requieren una reestructuración de los sistemas operacionales.
+\item Tienen un alto coste.
+\item Requieren sistemas, aplicaciones y almacenamiento específico.
+\end{itemize}
+Las empresas que utilizan data warehouse son fundamentalmente aquellas que manejan grandes volúmenes de datos relativos a clientes, compras, marketing, transacciones, operaciones. como lo son las empresas de telecomunicaciones, transporte, Turismo, fabricación de bienes de consumo masivo etc.
+
 \subsection{DATA LAKE}
 
 Data Lake es un término cuya primera definición o uso se atribuye a James Dixon que decía, “if you think of a datamart as akin to a bottle of water…”cleansed, packaged and structured for easy consumption” the data lake is more like a body of water in its natural state. Data flows from the streams (the source systems) to the lake. Users have access to the lake to examine, take samples or dive in.”
@@ -132,6 +171,41 @@ Tras las definiciones anteriores creo que es fácil resaltar alguna de las princ
 En definitiva es importante saber que aun siendo ambos conceptos, Data Warehouse y Data Lake, repositorios de información, un Data Lake no es una nueva versión 2.0 de un Data Warehouse ni su remplazo.
 
 De hecho, se pueden complementar muy bien, diseñando una arquitectura de datos moderna, que permita seguir a las organizaciones aprovechando sus inversiones en su Data Warehouse, mientras que empiezan a recoger en su Data Lake, todos los datos que han sido ignorados o desechados anteriormente.
+
+\subsection{PRINCIPALES BENEFICIOS DE UN DATA LAKE}	
+
+
+Un Data Lake tiene muchas ventajas. Las más destacables son estas:
+
+\begin{itemize}
+
+\item El Data Lake permite centralizar todos los datos en un mismo lugar, vengan de la fuente que vengan. Una vez incluidas en su silo correspondiente de información, pueden ser procesadas a través de herramientas de Big Data. Muchas veces, en esa disparidad de información, habrá datos que requieran un tratamiento especial en cuanto a seguridad. Gracias al Data Lake, este aspecto se puede solventar.
+\item Puede que la fuente original del dato esté obsoleta o se haya desactivado, sin embargo, su contenido puede que siga siendo valioso para el análisis. A través del Data Lake, puedes acceder a dicha información.
+\item Todo dato que llegue al Data Lake puede ser normalizado y enriquecido.
+\item Los datos se preparan en función de la necesidad del momento. Esto permite reducir considerablemente los costes y los tiempos. En el Data Warehouse, por ejemplo, es necesaria dicha preparación.
+\item Se puede acceder a la información y enriquecerla desde cualquier punto del planeta, por cualquier usuario autorizado por el Data Lake. Esto ayuda a la organización a recopilar más fácilmente los datos necesarios para la toma de decisiones.
+\item Un Data Lake pone la información en manos de un mayor número de personas dentro de cualquier organización, aprovechándose mejor la empresa de ese conocimiento que adquieren dichos individuos.
+
+\end{itemize}
+\begin{figure}[htb]
+				\begin{center}
+					\includegraphics[width=15cm]{./IMAGENES/leydi2}
+				\end{center}
+			\end{figure}
+
+\subsection{Características de un data lake}	
+Para ser clasificado como un data lake, un repositorio de datos grandes debe exhibir tres características clave:
+
+\begin{itemize}
+
+\item Un único repositorio compartido de datos, normalmente almacenado en el Sistema de archivos distribuido (DFS). Los lagos de datos de Hadoop conservan los datos en su forma original y capturan los cambios a los datos y la semántica contextual a lo largo del ciclo de vida de los datos.Este enfoque es especialmente útil para las actividades de cumplimiento y auditoría interna.
+Esta es una mejora con respecto al EDW tradicional, donde si los datos han sufrido transformaciones, agregaciones y actualizaciones, es difícil juntar datos cuando es necesario, y las organizaciones tienen dificultades para determinar la procedencia de los datos.
+\item Incluye funcionalidades de orquestación y programación de trabajos (por ejemplo, a través de YARN). La ejecución de la carga de trabajo es un requisito previo para Hadoop empresarial.
+YARN proporciona administración de recursos y una plataforma central para entregar herramientas consistentes de operaciones, seguridad y control de datos en los clústeres de Hadoop, asegurando que los flujos de trabajo analíticos tengan acceso a los datos y la potencia informática que requieren.
+\item Contiene un conjunto de aplicaciones o flujos de trabajo para consumir, procesar o actuar sobre los datos.
+El fácil acceso de los usuarios es una de las características de un data lake, debido a que las organizaciones conservan los datos en su forma original. Ya sea estructurado, no estructurado o semiestructurado, los datos se cargan y almacenan tal cual. Los propietarios de datos pueden entonces consolidar datos de clientes, proveedores y operaciones, eliminando barreras técnicas e incluso políticas para compartir datos.
+\end{itemize}
+Los data lake son cada vez más importantes para las estrategias de datos empresariales. Los datos de los lagos responden mejor a las realidades de los datos actuales: volúmenes y variedades de datos mucho mayores, mayores expectativas de los usuarios y la rápida globalización de las economías.
 
 
 \subsection{DATA LAKE VS DATA WAREHOUSE}

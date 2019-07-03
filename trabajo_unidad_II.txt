@@ -8,8 +8,3 @@ https://github.com/LeydiHuallpa/Modelo_Dimensional_vs_Modelo_Tabular.git
 ----------------------------------------
 https://github.com/LeydiHuallpa/metodolog-a_Inmon_VS_metodolog-a_Kimball.git
 
-LABORATORIOS:
-************************
-https://github.com/LeydiHuallpa/Informe-de-Laboratorio-N-05.git
-----------------------------------------
-https://github.com/LeydiHuallpa/Informe-de-Laboratorio-N-04.git
