@@ -274,6 +274,31 @@ Por diseño, los almacenes de datos son más estructurados. Una de las ventajas 
 
 \end{itemize}
 
+\subsection{Diferencias entre ambos}
+
+\begin{itemize}
+
+\item Datos
+
+Los data lakes tienen todo tipo de datos (estructurados, semiestructurados y desestructurados) y es posible que muchos de ellos no se utilicen nunca, aunque se conserven todos. Sin embargo, un data warehouse solo incluye datos estructurados y aquellos que se necesitan para informar o responder preguntas específicas del negocio.
+
+
+\item Agilidad
+
+Dado que un data lake carece de estructura, es relativamente fácil hacer cambios tanto en modelos como en consultas, ya que son más flexibles y pueden configurarse y reconfigurarse según sea necesario y dependiendo de para qué se necesiten. Sin embargo, es mucho más engorroso y lleva mucho más tiempo cambiar la estructura de un data warehouse debido a la gran cantidad de procesos empresariales que hay relacionados.
+
+
+\item Usuarios
+
+Generalmente, los científicos de datos son los que acceden a la información en los data lakes porque tienen las habilidades necesarias para realizar un análisis profundo. Técnicamente, los data lakes pueden admitir a todos los usuarios y estar disponibles para ellos, mientras que los data warehouse son utilizados para usuarios de negocio, muy específicos, con el objetivo de informar y extraer un significado particular de la información que se definió al configurarlo. Generalmente, los almacenes son demasiado restrictivos para los científicos de datos que necesitan ir más allá de los límites que imponen estos para obtener nuevos análisis de la información.
+
+
+\item Seguridad
+
+Dado que los data warehouses son más maduros que los data lakes, su seguridad también es más sólida. Existe cierta preocupación por que todos los datos se almacenen en un repositorio como los data lakes, porque hace que sean más vulnerables. Lo que sí es cierto es que tener una sola tienda para administrar facilita la auditoría y el cumplimiento de normativas.
+
+En resumen, ambas herramientas son diferentes y sirven a distintos propósitos. Si su empresa ya tiene un depósito de datos establecido, puede optar por implementar un data lake cercano para solucionar algunas de las limitaciones que experimenta el primero (como ya hemos visto). Para determinar qué solución es la mejor para su caso, debe comenzar por poner encima de la mesa el objetivo que quiere alcanzar y utilizar.
+\end{itemize}
 \subsection{DATA LAKE VS. DATA WAREHOUSE: PROBLEMA Y SOLUCION}	
 
 \begin{itemize}
@@ -303,18 +328,16 @@ En su forma más básica, un lago de datos no es más que una enorme piscina de 
 \end{itemize}
 
 
-\subsection{SECCION 3}	
-
-
-\subsection{SECCION 4}	
-
 
 \section{Conclusion}
 \begin{itemize}
 \item Conclusion 1 : \\
 
-\item Conclusion 2 : \\
+El concepto de DWH está teniendo una gran aplicación en la actualidad para el desarrollo de las empresas, como almacén de datos. Sus objetivos incluyen la reducción de los costes de almacenamiento y una mayor velocidad de respuesta frente a las consultas de los usuarios. Estos pueden ahora analizar y realizar preguntas sobre años, más que sobre meses de información.
 
+
+\item Conclusion 2 : \\
+Para diseñar una buena arquitectura de DWH es necesario como primer paso conocer bien los requerimientos del negocio y hacer un estudio profundo de las fuentes externas que nos van a suministrar los datos. Además, hacer un buen diseño del área de transformación de datos, cuáles son las transformaciones que se van a realizar y cómo se va a implementar el modelo dimensional con sus tablas de hechos y de dimensiones es el segundo paso a seguir.
 \item Conclusion 3 : \\
 
 
